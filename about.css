@@ -1,0 +1,126 @@
+  body{
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 100px;
+  }
+  .topnav {
+      background-color: white;
+      overflow: hidden;
+      padding-right: 3vw;
+  }
+  .topnav a:first-child {
+    float: left;
+    padding-left: 60px;
+    color: black;
+    font-size: 26px;
+    font-weight: bold;
+  }
+  /* Word style in nav*/
+  .topnav a {
+      float: right;
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 53px 10px;
+      text-decoration: none;
+      font-size: 16px;
+      font-family: Georgia, Serif;
+      letter-spacing: .06em;
+      font-weight: 400;
+  }
+
+  /* Link hover color */
+  .topnav a:hover {
+      color: grey;
+  }
+
+  /* Active link color */
+  .topnav a:active {
+      background-color: white;
+      color: black;
+  }
+  .fill {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      height: 605px;
+  }
+  .fill img {
+      flex-shrink: 0;
+      min-width: 100%;
+      min-height: 100%;
+  }
+
+  .text {
+      left: 0;
+      position:absolute;
+      text-align:center;
+      top: 400px;
+      width: 100%;
+      font-size: 54px;
+      color: white;
+      font-family: Georgia, Serif;
+      font-weight: bold;
+  }
+  .about{
+    left: 0;
+      position:absolute;
+      text-align:center;
+      top: 470px;
+      width: 100%;
+      font-size: 17px;
+      color: white;
+      font-family: Georgia, Serif;
+  }
+  .box{
+      background-color: #ff80ab;
+      position: absolute;
+      height: 17%;
+      width: 18%;
+      left: 41%;
+      top:  42%;
+      border-radius: 8px;
+    }
+  .description{
+        position: relative;
+        left: 520px;
+        font-family: Georgia, Serif;
+        font-size: 18px;
+        top: 37px;
+        width:18em;
+        line-height: 175%;
+  }
+  .profile{
+        position: absolute;
+        left: 900px;
+        top: 820px
+  }
+  .links{
+    position: relative;
+    left: 520px;
+    font-family: Georgia, Serif;
+    font-size: 18px;
+    top: 37px;
+    width: 18em;
+    line-height: 175%;
+  }
+  a:link {
+    color: black;
+    text-decoration: none;
+  }
+
+  a:visited {
+      text-decoration: none;
+      color: black;
+  }
+
+  a:hover {
+      color: grey;
+  }
+
+  a:active {
+      text-decoration: none;
+  }
